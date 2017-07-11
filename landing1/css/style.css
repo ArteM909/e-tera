@@ -1,0 +1,225 @@
+/* HEADER */
+
+
+.logo {
+    
+    height: 100px;
+    width: 100px;
+    margin: 15px 0 10px 15px;
+}
+
+.navbar-header {
+    
+    width: 100%;
+}
+
+ul.contacts {
+        
+    float: right;
+    list-style-type: none;
+}
+        
+.contacts li {
+    
+    font-size: 20px;
+}
+
+.email {
+    
+    margin: 15px 0 30px 0;
+}
+
+
+
+
+/* END HEADER */
+
+
+
+/* LINKS */
+
+
+
+
+.photos {
+    
+    float: left;
+    margin: 50px 0 0 10px;
+}
+
+
+.preview {
+    
+    height: 600px;
+    width: 70%;
+}
+
+.navigation {
+    
+    margin-top: 50px;
+}
+
+.navig {
+    
+    list-style-type: none;
+}
+
+.altimg {
+    
+    float: right;
+}
+
+.alter1 {
+    
+    height: 120px;
+    width: 120px;
+    display: block; 
+}
+
+.alter2, .alter3 {
+    
+    height: 120px;
+    width: 120px;
+    display: block;
+    margin-top: 20px;
+}
+
+.navig li {
+    
+    margin-top: 50px;
+}
+
+
+
+
+/* END LINKS */
+
+
+
+
+/* VIDEO GALLERY */
+
+
+.vid1, .vid2, .vid3 {
+    position: relative; 
+    overflow: hidden;
+    margin: 150px 0 0 10px;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+
+/* END VIDEO GALLERY */
+
+
+
+/* CONTENT */
+
+
+.content {
+    
+    margin-top: 150px;
+}
+
+.c-creator, .c-features, .c-order, 
+.c-delivery, .c-guaranty, .c-qna {
+    
+    margin-top: 100px;
+}
+
+
+
+/* END CONTENT */ 
+
+
+
+
+/* DOCUMENTS */
+
+
+
+
+
+.policy, .techdoc, .group {
+    
+    text-align: center;
+    margin-top: 30px;
+    font-style: italic;
+}
+
+p.policy, p.techdoc, p.group {
+    
+    border: 1px solid black;
+    padding: 5px;
+}
+
+
+
+
+
+/* END DOCUMENTS */
+
+
+
+
+/* FOOTER */
+
+
+/* SOCIAL MEDIA */
+
+
+.fb, .vk, .tw, .tl {
+    
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
+/* END SOCIAL MEDIA */
+
+
+ul.smi {
+    
+    border: 1px solid black;
+    padding: 10px;
+    list-style-type: none;
+}
+
+.info {
+    
+    margin-top: 30px;
+}
+
+.news {
+    
+    border: 1px solid black;
+    padding: 10px 10px 70px 10px;
+}
+
+ul.forms {
+    list-style-type: none;
+    border: 1px solid black;
+    padding: 10px 10px 60px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
