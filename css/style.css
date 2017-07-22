@@ -1,1 +1,309 @@
-some code
+/* HEADER */
+
+
+.logo {
+    
+    height: 100px;
+    width: 100px;
+    margin: 15px 0 10px 15px;
+}
+
+.navbar-header {
+    
+    width: 100%;
+}
+
+ul.contacts {
+        
+    float: right;
+    list-style-type: none;
+}
+        
+.contacts li {
+    
+    font-size: 20px;
+}
+
+.email {
+    
+    margin: 15px 0 30px 0;
+}
+
+
+
+
+/* END HEADER */
+
+
+
+/* LINKS */
+
+
+
+
+.photos {
+    
+    float: left;
+    margin: 50px 0 0 10px;
+}
+
+
+.preview {
+    
+    height: 600px;
+    width: 450px;
+}
+
+.navigation {
+    
+    margin-top: 50px;
+}
+
+.navig {
+    
+    list-style-type: none;
+}
+
+.altimg {
+    
+    float: right;
+    margin-left: 50px;
+}
+
+.alter1 {
+    
+    height: 120px;
+    width: 120px;
+    display: block; 
+}
+
+.alter2, .alter3 {
+    
+    height: 120px;
+    width: 120px;
+    display: block;
+    margin-top: 20px;
+}
+
+.navig li {
+    
+    margin-top: 50px;
+}
+
+
+
+@media(max-width: 768px) {
+    
+    .photos {
+        
+        margin: 30px 0 0 0;
+        float: none;
+    }
+    
+    
+    .preview {
+        
+        height: 100%;
+        width: 100%;
+    }
+    
+    .altimg {
+        
+        float: none;
+        width: 100%;
+        height: 100%;
+    }
+        
+    .alter1, .alter2, .alter3 {
+        
+        display: inline-block;
+        height: 20%;
+        width: 20%;
+        margin: 20px 0 0 0;
+    }
+}
+
+
+/* MAGNIFIC POPUP */
+
+
+/* overlay at start */
+.mfp-fade.mfp-bg {
+  opacity: 0;
+
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+/* overlay animate in */
+.mfp-fade.mfp-bg.mfp-ready {
+  opacity: 0.8;
+}
+/* overlay animate out */
+.mfp-fade.mfp-bg.mfp-removing {
+  opacity: 0;
+}
+
+/* content at start */
+.mfp-fade.mfp-wrap .mfp-content {
+  opacity: 0;
+
+  -webkit-transition: all 0.15s ease-out;
+  -moz-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+}
+/* content animate it */
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+  opacity: 1;
+}
+/* content animate out */
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+  opacity: 0;
+}
+
+
+
+/* END MAGNIFIC POPUP */
+
+
+
+
+/* END LINKS */
+
+
+
+
+/* VIDEO GALLERY */
+
+
+.vid1, .vid2, .vid3 {
+    position: relative; 
+    overflow: hidden;
+    margin: 150px 0 0 10px;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+@media(max-width: 768px) {
+    
+    
+    .vid1, .vid2, .vid3 {
+        
+        margin: 50px 5px 0 5px;
+    }
+}
+
+/* END VIDEO GALLERY */
+
+
+
+/* CONTENT */
+
+
+.content {
+    
+    margin-top: 150px;
+}
+
+.c-creator, .c-features, .c-order, 
+.c-delivery, .c-guaranty, .c-qna {
+    
+    margin-top: 100px;
+}
+
+
+
+/* END CONTENT */ 
+
+
+
+
+/* DOCUMENTS */
+
+
+
+
+
+.policy, .techdoc, .group {
+    
+    text-align: center;
+    margin-top: 30px;
+    font-style: italic;
+}
+
+p.policy, p.techdoc, p.group {
+    
+    border: 1px solid black;
+    padding: 5px;
+}
+
+
+
+
+
+/* END DOCUMENTS */
+
+
+
+
+/* FOOTER */
+
+
+/* SOCIAL MEDIA */
+
+
+.fb, .vk, .tw, .tl {
+    
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
+/* END SOCIAL MEDIA */
+
+
+ul.smi {
+    
+    border: 1px solid black;
+    padding: 10px;
+    list-style-type: none;
+}
+
+.info {
+    
+    margin-top: 30px;
+}
+
+.news {
+    
+    border: 1px solid black;
+    padding: 10px 10px 70px 10px;
+}
+
+ul.forms {
+    list-style-type: none;
+    border: 1px solid black;
+    padding: 10px 10px 60px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
