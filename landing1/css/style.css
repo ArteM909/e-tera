@@ -1,3 +1,20 @@
+@font-face {
+    
+    font-family: isocpeur;
+    src: url(fonts/ISOCPEUR.ttf)
+}
+
+h2 {
+    
+    font-family: impact;
+}
+
+p {
+    
+    font-family: isocpeur;
+}
+
+
 /* HEADER */
 
 
@@ -10,12 +27,13 @@
 .header {
     
     width: 100%;
+    font-family: impact;
 }
 
 #header {
     
     background-color: rgba( 0, 0, 0, 0.791 );
-    z-index: 10;
+    z-index: 1000;
 }
 
 div.logo {
@@ -25,7 +43,7 @@ div.logo {
 
 .switchlang {
     
-    margin: -4px 0 0 27%;
+    margin: -4px 0 0 28%;
 }
 
 .rus, .eng {
@@ -50,6 +68,27 @@ div.logo {
     text-decoration: none;
 }
 
+@media(max-width: 991px) {
+    
+    .switchlang {
+        
+        margin: -1.5rem 0 0 3.8rem;
+    }
+    
+    .rus, .eng {
+        
+        font-size: 2rem;
+    }
+        
+    .logo {
+        
+        max-height: 35px;
+    }
+}
+
+
+
+
 /* END HEADER */
 
 
@@ -62,8 +101,19 @@ div.logo {
 .colour {
     
     text-align: center;
-    margin: 80px 0 0 0;
+    margin: 100px 0 0 0;
+    font-family: isocpeur;
+    font-size: 1.6rem;
 }
+
+@media(min-width: 992px) {
+    
+    .colour {
+        
+        margin: 75px 0 0 0;
+    }
+}
+
 
 .black, .white {
     
@@ -89,6 +139,15 @@ div.logo {
     outline: none;
 }
 
+
+#navigation {
+    
+    font-family: impact;
+}
+
+
+
+
 .photos {
     
     float: left;
@@ -97,7 +156,6 @@ div.logo {
     vertical-align: middle;
 }
 
-
 .preview {
     
     height: auto;
@@ -105,15 +163,20 @@ div.logo {
     overflow: hidden;
 }
 
+
+
 .navigation {
     
     margin-top: 50px;
+    height: 100%;
 }
 
 .navig {
     
     list-style-type: none;
 }
+
+
 
 .altimg {
     
@@ -128,11 +191,20 @@ div.logo {
     padding: 1%
 }
 
+
+
 .navig li {
     
-    margin-top: 40px;
+    margin-top: 5.7rem;
 }
 
+@media only screen and (max-width: 992px) {
+    
+    .navil li {
+        
+        margin-top: 3.8rem;
+    }
+}
 
 
 @media(max-width: 768px) {
@@ -142,7 +214,6 @@ div.logo {
         margin: 20px 0 0 0;
         float: none;
     }
-    
     
     .preview {
         
@@ -165,6 +236,22 @@ div.logo {
         margin: 20px 0 0 0;
     }
 }
+
+
+
+
+a.slide {
+    
+    text-decoration: none;
+    color: #000000;
+}
+
+a.slide:hover {
+    
+    color: #a0a0a0;
+}
+
+
 
 
 /* MAGNIFIC POPUP */
@@ -225,8 +312,20 @@ div.logo {
     margin: 70px 0 0 10px;
     font-size: 16px;
     text-align: center;
+    color: #000000;
+    font-family: isocpeur;
+    font-size: 2rem;
 }
 
+a.vid {
+    
+    text-decoration: none;
+}
+
+a.vid:hover {
+    
+    color: #a0a0a0;
+}
 
 @media(max-width: 768px) {
     
@@ -246,14 +345,15 @@ div.logo {
 
 .content {
     
-    margin-top: 150px;
+    margin-top: 100px;
 }
 
-.c-creator, .c-features, .c-order, 
-.c-delivery, .c-guaranty, .c-qna {
+div.creator, div.features, div.order, 
+div.delivery, div.guaranty, div.qna {
     
     margin-top: 100px;
 }
+
 
 
 
